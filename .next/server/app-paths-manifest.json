@@ -1,0 +1,10 @@
+{
+  "/api/ai-chat/route": "app/api/ai-chat/route.js",
+  "/api/gen-ai-code/route": "app/api/gen-ai-code/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/(main)/HelpCenter/page": "app/(main)/HelpCenter/page.js",
+  "/(main)/pricing/page": "app/(main)/pricing/page.js",
+  "/(main)/settings/page": "app/(main)/settings/page.js",
+  "/(main)/workspace/[id]/page": "app/(main)/workspace/[id]/page.js",
+  "/page": "app/page.js"
+}

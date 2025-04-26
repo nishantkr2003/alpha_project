@@ -21,6 +21,11 @@ import {
   FaVideo,
   FaChartLine,
   FaComments,
+  FaKeyboard,
+  FaEdit,
+  FaEye,
+  FaCloudUploadAlt,
+  FaLink,
 } from "react-icons/fa";
 
 import {
@@ -145,7 +150,7 @@ function Hero() {
                   Step 1: Sign Up
                 </h3>
                 <p className="text-muted-foreground mt-2">
-                  Create your account to get started with the interview process.
+                Initialize your account setup to access AI-driven code generation services.
                 </p>
               </VerticalTimelineElement>
 
@@ -164,7 +169,7 @@ function Hero() {
                   borderRight: "7px solid hsl(var(--border))",
                 }}
                 iconStyle={{ background: "#f7b52d", color: "#fff" }}
-                icon={<FaClipboardList />}
+                icon={<FaKeyboard />}
               >
                 <h3 className="vertical-timeline-element-title text-xl font-bold text-foreground">
                   Step 2: Craft Your Prompt
@@ -190,7 +195,7 @@ function Hero() {
                   borderRight: "7px solid hsl(var(--border))",
                 }}
                 iconStyle={{ background: "#ff6f6f", color: "#fff" }}
-                icon={<FaVideo />}
+                icon={<FaEdit />}
               >
                 <h3 className="vertical-timeline-element-title text-xl font-bold text-foreground">
                   Step 3: Refine with Feedback
@@ -215,7 +220,7 @@ function Hero() {
                   borderRight: "7px solid hsl(var(--border))",
                 }}
                 iconStyle={{ background: "#4caf50", color: "#fff" }}
-                icon={<FaChartLine />}
+                icon={<FaEye />}
               >
                 <h3 className="vertical-timeline-element-title text-xl font-bold text-foreground">
                   Step 4: Preview the Output
@@ -242,7 +247,7 @@ function Hero() {
                   borderRight: "7px solid hsl(var(--border))",
                 }}
                 iconStyle={{ background: "#7952b3", color: "#fff" }}
-                icon={<FaComments />}
+                icon={<FaLink />}
               >
                 <h3 className="vertical-timeline-element-title text-xl font-bold text-foreground">
                   Step 5: Deploy the Project and Get the Link

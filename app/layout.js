@@ -14,6 +14,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        {/* Google Analytics Tag : Google tag (gtag.js) */}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8LCP3CW31G"></script>
+<script dangerouslySetInnerHTML={{ __html: `
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-8LCP3CW31G');
+`}} />
+      </head>
       <body>
         <ConvexClientProvider>
           <Provider>{children}</Provider>
