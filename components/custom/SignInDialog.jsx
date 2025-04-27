@@ -42,6 +42,9 @@ function SignInDialog({ openDialog, closeDialog }) {
       }
       setUserDetail(userInfo?.data);
       closeDialog(false);
+      
+      // Refresh the page after login
+      window.location.reload();
     },
     onError: (errorResponse) => console.log(errorResponse),
   });
