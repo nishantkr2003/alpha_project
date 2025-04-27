@@ -27,7 +27,7 @@ function Header() {
   };
 
   return (
-    <div className="p-4 flex justify-between items-center fixed top-0 left-0 w-full shadow-lg bg-black bg-opacity-30 z-50">
+    <div className="p-4 flex justify-between items-center">
       <Link href={"/"}>
         <Image
           src="/logo.png"
