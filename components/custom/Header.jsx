@@ -59,18 +59,14 @@ function Header() {
               </Link>
 
               {/* Dropdown */}
-              <div className="absolute left-1/2 -translate-x-1/2 mt-2 w-80 h-108 bg-black shadow-lg rounded-md opacity-0 group-hover:opacity-100 scale-95 group-hover:scale-100 transform transition-all duration-300 z-50 p-4 border border-gray-600">
+              <div className="absolute left-1/2 -translate-x-1/2 mt-2 w-80 pointer-events-none group-hover:pointer-events-auto bg-black shadow-lg rounded-md opacity-0 group-hover:opacity-100 scale-95 group-hover:scale-100 transform transition-all duration-300 z-50 p-4 border border-gray-600 ">
                 <p className="text-sm text-white">
-                  Welcome to NovaCode AI, an AI-powered platform that
-                  revolutionizes the coding process. Built by a passionate solo
-                  developer, NovaCode AI leverages Google Gemini AI to generate
-                  and refine code based on natural language prompts. With a
-                  real-time interactive environment powered by Sandpack and a
-                  serverless backend via Convex, it offers instant code previews
-                  and seamless updates. Designed with Next.js, React 18, and
-                  Tailwind CSS, NovaCode AI enhances developer productivity by
-                  providing a fast, scalable, and intuitive platform for modern
-                  software development.
+                  NovaCode AI is an AI-powered platform that revolutionizes
+                  coding. Built by a solo developer, it uses Google Gemini AI to
+                  generate and optimize code from natural language prompts. With
+                  real-time previews via Sandpack and a serverless backend
+                  through Convex, it offers a fast, scalable, and intuitive
+                  environment to boost developer productivity.
                 </p>
               </div>
             </div>
@@ -84,35 +80,24 @@ function Header() {
               </Link>
 
               {/* Dropdown */}
-              <div className="absolute left-1/2 -translate-x-1/2 mt-2 w-80 h-108 bg-black shadow-lg opacity-0 group-hover:opacity-100 scale-95 group-hover:scale-100 transform transition-all duration-300 z-50 p-4 border border-gray-600 ">
+              <div className="absolute left-1/2 -translate-x-1/2 mt-2 transition-delay-150 pointer-events-none group-hover:pointer-events-auto w-80 bg-black shadow-lg opacity-0 group-hover:opacity-100 scale-95 group-hover:scale-100 transform transition-all duration-300 z-50 p-4 border border-gray-600 rounded-md">
                 <ul>
                   <li className="mb-2">
                     <a
+                      href="https://kumarnishant.netlify.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block text-sm text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-pink-600 bg-clip-text text-transparent hover:text-transparent hover:bg-clip-text transition duration-300 border border-gray-600 rounded-md p-2"
+                    >
+                      Website: NISHANT KUMAR
+                    </a>
+                  </li>
+                  <li className="mb-2">
+                    <a
                       href="mailto:nishantkr2003nna@gmail.com"
-                      className="block text-sm text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-pink-600 bg-clip-text text-transparent hover:text-transparent hover:bg-clip-text transition duration-300"
+                      className="block text-sm text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-pink-600 bg-clip-text text-transparent hover:text-transparent hover:bg-clip-text transition duration-300 border border-gray-600 rounded-md p-2"
                     >
                       Gmail: nishantkr2003nna@gmail.com
-                    </a>
-                  </li>
-                  <li className="mb-2">
-                    <a
-                      href="https://www.linkedin.com/in/nishant-kumar-749279260/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block text-sm text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-pink-600 bg-clip-text text-transparent hover:text-transparent hover:bg-clip-text transition duration-300"
-                    >
-                      LinkedIn: nishant-kumar-749279260
-                    </a>
-                  </li>
-
-                  <li className="mb-2">
-                    <a
-                      href="https://wa.me/917541006707"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block text-sm text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-pink-600 bg-clip-text text-transparent hover:text-transparent hover:bg-clip-text transition duration-300"
-                    >
-                      WhatsApp: 7541006707
                     </a>
                   </li>
                 </ul>
@@ -144,7 +129,6 @@ function Header() {
               Get Started
             </Button>
           </div>
-
         </div>
       ) : (
         <div className="flex gap-5 items-center">
