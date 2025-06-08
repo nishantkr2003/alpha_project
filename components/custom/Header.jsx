@@ -105,7 +105,7 @@ function Header() {
             </div>
 
             <Link
-              href="https://github.com/nishantkr2003"
+              href="https://github.com/nishantkr2003/alpha_project"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white font-medium transition-all duration-300 hover:bg-gradient-to-r hover:from-blue-600 hover:to-pink-600 bg-clip-text text-transparent hover:text-transparent hover:bg-clip-text "
